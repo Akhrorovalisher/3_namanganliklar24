@@ -24,6 +24,12 @@ img {
   height: auto;
 }
 
+/* OUTLINE STYLES */
+*:focus {
+  outline: 2px dashed #7296ec;
+  outline-offset: 2px;
+}
+
 .button {
   display: inline-block;
   text-align: center;
@@ -106,7 +112,20 @@ img {
   color:#2959CE;
 }
 
-/* LANG-TOGLE */
+/* GLOBAL-SEARCH-FORM  */
+.global-search-form{
+  margin-right: 25px;
+}
+
+.global-search-form-input{
+  padding: 15px 20px 13px 40px;
+  font-size: 14px;
+  font-style: normal;
+  border: 0;
+  border-radius: 60px;
+}
+
+/* LANG-TOGGLE */
 .lange-togle {
   display: flex;
   padding: 3px;
