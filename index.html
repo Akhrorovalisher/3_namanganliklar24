@@ -8,7 +8,8 @@
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Condensed:wght@700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
 
   <!-- Style  -->
   <link rel="stylesheet" href="css/necolas.github.io_normalize.css_8.0.1_normalize.css">
@@ -20,42 +21,185 @@
   <header class="site-header">
 
     <!-- SITE-HEADER-TOP -->
-    <div class="site-header-top-container container">
-
-      <!-- LOGO  -->
-      <a class="site-header-logo" href="index.html">
-        <img src="img/logo.svg" alt="logo-img" width="264" height="28">
-      </a>
-
-      <!-- CURRENCY-RATE -->
-      <ul class="currency-rates">
-        <li class="currency-rates-item">
-            <b class="currency-rates-type">$</b>
-            <span class="currency-rates-value">12110.21</span>
-        </li>
-        <li class="currency-rates-item">
-          <b class="currency-rates-type">P</b>
-          <span class="currency-rates-value">122.933 </span>
-        </li>
-      </ul>
-
-
-      <!-- GLOBAL-SEARCH-FORM -->
-      <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
-        <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
-      </form>
-
-      <!-- LENG-TOGGLE -->
-      <div class="lange-togle">
-        <a class="lang-toggle-link lang-taggle-active" href="index.html">УЗ</a>
-        <a class="lang-toggle-link" href="index.html/ru">РУ</a>
+    <div class="site-header-top">
+      <div class="site-header-top-container container">
+        <!-- LOGO  -->
+        <a class="site-header-logo" href="index.html">
+          <img src="img/logo.svg" alt="logo-img" width="264" height="28">
+        </a>
+        <!-- CURRENCY-RATE -->
+        <ul class="currency-rates">
+          <li class="currency-rates-item">
+              <b class="currency-rates-type">$</b>
+              <span class="currency-rates-value">12110.21</span>
+          </li>
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">P</b>
+            <span class="currency-rates-value">122.933 </span>
+          </li>
+        </ul>
+        <!-- GLOBAL-SEARCH-FORM -->
+        <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
+          <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
+        </form>
+        <!-- LENG-TOGGLE -->
+        <div class="lange-togle">
+          <a class="lang-toggle-link lang-taggle-active" href="index.html">УЗ</a>
+          <a class="lang-toggle-link" href="index.html/ru">РУ</a>
+        </div>
+        <!-- SITE-HEADER-AUTH -->
+        <a class="button button-primary" href="#">Войти</a>
       </div>
+    </div>
 
-      <!-- SITE-HEADER-AUTH -->
-      <a class="button button-primary" href="#">Войти</a>
+
+    <!-- SITENAV -->
+    <div class="container">
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item"><a href="#" class="sitenav-link">Главное</a>
+          </li>
+          <li class="sitenav-item"><a href="#" class="sitenav-link">Интересное</a>
+          </li>
+          <li class="sitenav-item"><a href="#" class="sitenav-link">Экономика</a>
+          </li>
+          <li class="sitenav-item"><a href="#" class="sitenav-link">Политика</a>
+          </li>
+          <li class="sitenav-item"><a href="#" class="sitenav-link">Общество</a>
+          </li>
+          <li class="sitenav-item"><a href="#" class="sitenav-link">Технологии</a>
+          </li>
+          <li class="sitenav-item"><a href="#" class="sitenav-link">Спорт</a>
+          </li>
+          <li class="sitenav-item"><a href="#" class="sitenav-link">Культура</a>
+          </li>
+          <li class="sitenav-item"><a href="#" class="sitenav-link">Происшествия</a>
+          </li>
+          <li class="sitenav-item"><a href="#" class="sitenav-link">Наука</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- SITE-HEADING-BANNER -->
+      <aside class="site-header-banner">
+        <a class="site-header-banner-link" href="https://olcha.uz">
+          <img src="img/shopme-banner.jpg" srcset="img/shopme-banner.jpg 1x, img/shopme-banner2.jpg 2x" alt="shopme-banner">
+        </a>
+      </aside>
     </div>
   </header>
 
+  <!-- MAIN-CONTENT -->
+  <main class="main-content">
+    <div class="container">
+    <!-- <h1>Namanganliklar24 - сайт новостэй</h1>  -->
+
+      <!-- TOP-NEWS -->
+      <section class="top-news">
+        <!-- <h2>топ новости</h2> -->
+
+        <!-- NEWS GRID -->
+        <div class="news-grid">
+          <!-- 1NEWS-GRI-ITEM -->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a class="aricle-cart-link" href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a>
+            </h3>
+            <p class="article-cart-text">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+            <img class="article-card-img" src="img/image3_1.jpg" alt="1-img" width="360" height="165" srcset="img/image3_1.jpg 1x, img/image3@2x_1.jpg 2x">
+            <footer class="aricle-cart-footer">
+              <img class="aricle-card-source-icon" src="img/image4_3.jpg" alt="1-icon" width="20" height="20" srcset="img/image4_3.jpg 1x, img/image4@2x_3.jpg 2x">
+              <div class="article-card-source-time">
+                <span class="article-card-source">ИА Красная Весна</span>
+                <time datetime="2023-08-17T15:55:00">15:55</time>
+              </div>
+            </footer>
+          </article>
+
+          <!-- 2NEWS-GRI-ITEM -->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a class="aricle-cart-link" href="#">Ученые доказали экспериментальным путем пользу покровных культур</a>
+            </h3>
+            <p class="article-cart-text">Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
+            <img class="article-card-img" src="img/image1_1.jpg" alt="2-img" width="360" height="165" srcset="img/image1_1.jpg 1x, img/image1@2x_1.jpg 2x">
+            <footer class="aricle-cart-footer">
+              <img class="aricle-card-source-icon" src="img/image5_2.jpg" alt="2-icon" width="20" height="20" srcset="img/image5_2.jpg 1x, img/image5@2x_2.jpg 2x">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Газета.Ru</span>
+                <time datetime="2023-08-17T12:54:00">12:54</time>
+              </div>
+            </footer>
+          </article>
+
+          <!-- 3NEWS-GRI-ITEM -->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a class="aricle-cart-link" href="#">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</a>
+            </h3>
+            <p class="article-cart-text">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
+            <img class="article-card-img" src="img/image4_1.jpg" alt="3-img" width="360" height="165" srcset="img/image4_1.jpg 1x, img/image4@2x_1.jpg 2x">
+            <footer class="aricle-cart-footer">
+              <img class="aricle-card-source-icon" src="img/image5.jpg" alt="3-icon" width="20" height="20" srcset="img/image5.jpg 1x, img/image5@2x.jpg 2x">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Хайтек+</span>
+                <time datetime="2023-08-17T13:44:00">13:44</time>
+              </div>
+            </footer>
+          </article>
+
+          <!-- 4NEWS-GRI-ITEM -->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a class="aricle-cart-link" href="#">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</a>
+            </h3>
+            <p class="article-cart-text">Во время презентации iPhone 13 Apple придала большое значения...</p>
+            <img class="article-card-img" src="img/image3.jpg" alt="4-img" width="360" height="165" srcset="img/image3.jpg 1x, img/image3@2x.jpg 2x">
+            <footer class="aricle-cart-footer">
+              <img class="aricle-card-source-icon" src="img/image4_2.jpg" alt="4-icon" width="20" height="20" srcset="img/image4_2.jpg 1x, img/image4@2x_2.jpg 2x">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Digger.ru</span>
+                <time datetime="2023-08-17T14:25:00">14:25</time>
+              </div>
+            </footer>
+          </article>
+
+          <!-- 5NEWS-GRI-ITEM -->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a class="aricle-cart-link" href="#">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</a>
+            </h3>
+            <p class="article-cart-text">Во время презентации iPhone 13 Apple придала большое значения...</p>
+            <img class="article-card-img" src="img/image1.jpg" alt="5-img" width="360" height="165" srcset="img/image1.jpg 1x, img/image1@2x.jpg 2x">
+            <footer class="aricle-cart-footer">
+              <img class="aricle-card-source-icon" src="img/image5_1.jpg" alt="5-icon" width="20" height="20" srcset="img/image5_1.jpg 1x, img/image5@2x_1.jpg 2x">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Lenta.ru</span>
+                <time datetime="2023-08-17T10:54:00">10:54</time>
+              </div>
+            </footer>
+          </article>
+
+          <!-- 6NEWS-GRI-ITEM -->
+          <article class="news-grid-item article-card">
+              <h3 class="article-card-title">
+                <a class="aricle-cart-link" href="#">Китайская марка JAC повысила цены на лифтбек и пикап в России</a>
+              </h3>
+              <p class="article-cart-text">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+              <img class="article-card-img" src="img/image4.jpg" alt="6-img" width="360" height="165" srcset="img/image4.jpg 1x, img/image4@2x.jpg 2x">
+              <footer class="aricle-cart-footer">
+                <img class="aricle-card-source-icon" src="img/imag6.jpg" alt="6-img" width="20" height="20" srcset="img/imag6.jpg 1x, img/imag62@x.jpg 2x">
+                <div class="article-card-source-time">
+                  <span class="article-card-source">Тарантас Ньюс</span>
+                  <time datetime="2023-08-17T10:44:00">10:44</time>
+                </div>
+              </footer>
+            </article>
+
+        </div>
+      </section>
+    </div>
+  </main>
 
 </body>
 </html>

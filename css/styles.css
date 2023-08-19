@@ -12,7 +12,8 @@ body{
   flex-direction: column;
   padding: 0;
   margin: 0;
-  font-family: "Rubi", "Arial", "sans-serif";
+  font-family: "Rubik", "Arial", "sans-serif";
+  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   background-color: #fff;
@@ -58,7 +59,7 @@ img {
 /* CONTAINER */
 .container{
   width: 100%;
-  max-width: 1140px;
+  max-width: 1240px;
   padding-left: 20px;
   padding-right: 20px;
   margin-right: auto;
@@ -67,8 +68,9 @@ img {
 
 
 /* SITE-HEADER */
-.site-header {
+.site-header-top {
   background-color:#F6F6F6;
+  margin-bottom: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -148,6 +150,131 @@ img {
   color:#000;
 }
 
-.button-primary {
+.sitenav {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #d1d1d1;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 500;
+}
+.sitenav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sitenav-item {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
 
+.sitenav-item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.sitenav-link {
+  display: block;
+
+  text-decoration: none;
+  color: #7f7f7f;
+}
+
+.sitenav-link:hover{
+  color: #7296ec;
+}
+
+.sitenav-link:active{
+  opacity: 0.6;
+}
+
+.site-header-banner-link{
+  display: flex;
+}
+
+
+/* MAIN-CONTENT */
+.main-content{
+  flex-grow: 1;
+  padding-top: 50px;
+}
+
+
+/* NEW-GRID */
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+.news-grid-item {
+  width: 393px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.article-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 17px 15px;
+  border-radius:15px;
+  background-color: #F6F6F6;
+}
+.article-card-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.aricle-cart-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+.aricle-cart-link:hover{
+  color: #7296ec;
+}
+
+.aricle-cart-link:active{
+  opacity: 0.6;
+}
+
+.article-cart-text {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.article-card-img {
+  display: block;
+  width: 359px;
+  height: 165px;
+  margin-top: auto;
+  margin-bottom: 15px;
+  border: radius 10px;
+  object-fit: cover;
+}
+
+.aricle-cart-footer {
+  display: flex;
+  align-items:center;
+}
+
+.aricle-card-source-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.article-card-source-time {
+  font-size: 12px;
+  line-height: normal;
+  color: #5E5F61;
+}
+
+.article-card-source {
 }
